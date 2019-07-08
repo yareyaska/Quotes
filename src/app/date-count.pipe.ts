@@ -20,4 +20,7 @@ export class DateCountPipe implements PipeTransform {
     }
   }
 
+  let today:any = new Date();
+    var difference = Math.abs(today-value);
+
 }
